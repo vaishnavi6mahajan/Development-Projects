@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <style>
+    body {
+      background-image: url("https://c4.wallpaperflare.com/wallpaper/873/8/953/blur-computing-illuminated-keyboard-wallpaper-preview.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: sans-serif;
+    }
+    .title {
+      text-align: left;
+      border-radius: 20px;
+      border-color: black;
+      font-family: sans-serif;
+    }
+    .box {
+      align-content: start;
+      width: 25%;
+      height: 500px;
+      border: 2px solid white;
+      border-radius: 15px;
+      margin: 10px auto;
+      background-color: white;
+      padding-left: 30px;
+      padding-top: 10px;
+      padding-right: 30px;
+      box-shadow: 4px 2px 10px rgb(210, 210, 245);
+    }
+    #form {
+      text-align: left;
+      margin-left: 1px;
+      justify-content: start;
+    }
+    .btn {
+      background-color: rgb(235, 40, 40);
+      width: 98%;
+      height: 6vh;
+      border-radius: 10px;
+      margin-left: 1px;
+      cursor: pointer;
+      font-size: larger;
+      align-content: center;
+    }
+    .btn:hover {
+      background-color: rgb(172, 64, 64);
+    }
+    .email {
+      height: 6vh;
+      font-size: larger;
+      width: 95%;
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <div style="display: flex; justify-content: start">
+      <div>
+        <img
+          src="https://user.mockplus.com/enUS/sign-logo2.png"
+          width="150px"
+          style="margin-top: 60px; margin-left: 300px"
+        />
+      </div>
+      <!-- <div>
+        <p style="font-size: 50px; color: white; font-family: sans-serif">
+          Mockplus
+        </p>
+      </div> -->
+    </div>
+    <div class="box">
+      <h1 style="text-align: left; padding-top: 20px; font-family: sans-serif">
+        Sign in to Mockplus
+      </h1>
+      <br />
+      <form id="form">
+        <input class="email" type="text" placeholder="  Email" /><br /><br />
+        <input
+          class="email"
+          type="password"
+          placeholder="  Password"
+        /><br /><br />
+        <a href="#" style="white-space: nowrap"> Forgot Password?</a
+        ><br /><br />
+        <button class="btn" type="button">Sign In</button>
+        <div style="font-size: 18px; white-space: nowrap">
+          <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <hr />
+        <div style="display: flex">
+          <div style="font-size: 17px">
+            <p>Or sign in with:</p>
+          </div>
+          <div style="margin-left: 150px">
+            <img
+              src="https://blog.hubspot.com/hubfs/image8-2.jpg"
+              height="40px"
+              width="60px"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
