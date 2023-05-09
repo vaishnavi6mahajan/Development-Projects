@@ -14,6 +14,7 @@ body {
   font-family: cursive;
   display: flex;
   flex-direction: column;
+  /* display: none; */
 }
 .right1 {
   display: flex;
@@ -54,7 +55,7 @@ body {
   margin-top: 2%;
 }
 .btn2:hover {
-  box-shadow: 0 5px 10px rgb(121, 6, 44);
+  box-shadow: 0 3px 10px rgb(121, 6, 44);
   border: 1px rgb(200, 119, 146);
 }
 .btn3 {
@@ -71,6 +72,7 @@ body {
   margin: 2% 0% 0% 2%;
   font-size: 18px;
   justify-content: center;
+  cursor: pointer;
 }
 .signbtn:hover {
   box-shadow: 0 5px 15px rgb(121, 6, 44);
@@ -84,12 +86,19 @@ body {
   background-color: aliceblue;
   border: 2px solid rgb(57, 61, 179);
 }
+.google:hover{
+  box-shadow: 0 5px 15px rgb(87, 104, 177);
+}
 .ggl {
   background-color: rgb(57, 61, 179);
   color: aliceblue;
   height: 40%;
   width: 100%;
   border: 1px solid rgb(57, 61, 179);
+  cursor: pointer;
+}
+.ggl:hover {
+  box-shadow: 0 5px 15px rgb(87, 104, 177);
 }
 .twt {
   width: 20%;
@@ -97,6 +106,10 @@ body {
   border-radius: 10px;
   border: none;
   margin-left: 2%;
+  cursor: pointer;
+}
+.twt:hover {
+  box-shadow: 0 5px 15px rgb(64, 62, 63);
 }
 .or {
   display: flex;
@@ -119,7 +132,7 @@ hr {
   justify-content: start;
 }
 
-.pass{
+.pass {
   height: 8vh;
   font-size: 19px;
   width: 85%;
@@ -134,3 +147,8 @@ hr {
   margin: 2%;
 }
 
+@media screen and(max-width: 425px) {
+  .left {
+    display: block;
+  }
+}
