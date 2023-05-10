@@ -11,6 +11,9 @@ body {
   border-color: black;
   font-family: sans-serif;
 }
+.container{
+  display: flex; justify-content: start
+}
 .box {
   align-content: start;
   width: 25%;
