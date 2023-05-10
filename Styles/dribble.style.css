@@ -26,7 +26,7 @@ body {
   width: 500px;
   border: none;
   border-radius: 10px;
-  margin: 90px 300px 90px 300px;
+  margin: 100px 300px 90px 300px;
   padding: 30px;
 }
 .upper {
@@ -86,7 +86,7 @@ body {
   background-color: aliceblue;
   border: 2px solid rgb(57, 61, 179);
 }
-.google:hover{
+.google:hover {
   box-shadow: 0 5px 15px rgb(87, 104, 177);
 }
 .ggl {
@@ -146,9 +146,53 @@ hr {
   border-radius: 60px;
   margin: 2%;
 }
+.fp {
+  margin-left: 49%;
+}
 
-@media screen and(max-width: 425px) {
+@media screen and (max-width: 935px) {
+  .right {
+    flex-direction: column;
+    /* background-color: rgb(248, 175, 187); */
+    justify-content: center;
+    width: auto;
+  }
+  .right1 {
+    justify-content: center;
+    margin: 5% 0% -5% 0%;
+  }
   .left {
-    display: block;
+    display: none;
+  }
+  .right2 {
+    overflow: hidden;
+    width: 200px;
+    /* background-color: rgb(253, 215, 221); */
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 300px;
+    box-shadow: 5px 5px 10px 5px rgb(248, 175, 187);
+  }
+  .twt,
+  .ggl {
+    height: 44%;
+  }
+  .pass,
+  .email {
+    font-size: 15px;
+  }
+  .signbtn {
+    height: 100%;
+    width: 38%;
+    margin-top: 15%;
+    border-radius: 5px;
+  }
+  .right {
+    padding-bottom: 50%;
+  }
+  .fp {
+    margin-left: 30%;
   }
 }

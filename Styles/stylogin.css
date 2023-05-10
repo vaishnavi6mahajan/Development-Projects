@@ -12,7 +12,7 @@ body {
   font-family: sans-serif;
 }
 .container{
-  display: flex; justify-content: start
+  display: flex; justify-content: start;
 }
 .box {
   align-content: start;
