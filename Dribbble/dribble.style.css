@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  /* overflow: hidden; */
+}
+.left {
+  background-color: rgb(244, 203, 209);
+  width: 50%;
+  height: 100vh;
+  border: 1px;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  /* display: none; */
+}
+.right1 {
+  display: flex;
+  justify-content: end;
+  margin: 5% 10%;
+}
+.right2 {
+  height: 60%;
+  width: 500px;
+  border: none;
+  border-radius: 10px;
+  margin: 100px 300px 90px 300px;
+  padding: 30px;
+}
+.upper {
+  align-items: center;
+  color: brown;
+  padding: 60px;
+  font-size: 30px;
+}
+.signin {
+  display: flex;
+  justify-content: start;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 6% 0% -4% 2%;
+  height: 20%;
+}
+.btn2 {
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+  border: 1px solid rgb(24, 18, 20);
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.btn2:hover {
+  box-shadow: 0 3px 10px rgb(121, 6, 44);
+  border: 1px rgb(200, 119, 146);
+}
+.btn3 {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.signbtn {
+  width: 38%;
+  height: 70%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(219, 66, 117);
+  margin: 7% 0% 2% 3%;
+  font-size: 18px;
+  justify-content: center;
+  cursor: pointer;
+}
+.signbtn:hover {
+  box-shadow: 0 5px 15px rgb(121, 6, 44);
+}
+.google {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 22%;
+  padding: 6px;
+  background-color: aliceblue;
+  border: 2px solid rgb(57, 61, 179);
+}
+.google:hover {
+  box-shadow: 0 5px 15px rgb(87, 104, 177);
+}
+.ggl {
+  background-color: rgb(57, 61, 179);
+  color: aliceblue;
+  height: 40%;
+  width: 100%;
+  border: 1px solid rgb(57, 61, 179);
+  cursor: pointer;
+}
+.ggl:hover {
+  box-shadow: 0 5px 15px rgb(87, 104, 177);
+}
+.twt {
+  width: 20%;
+  height: 40%;
+  border-radius: 10px;
+  border: none;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.twt:hover {
+  box-shadow: 0 5px 15px rgb(64, 62, 63);
+}
+.or {
+  display: flex;
+  justify-content: center;
+  width: 89%;
+  /* margin-left: 4%; */
+}
+hr {
+  width: 70%;
+  height: 10%;
+  margin: 10px 6px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 48%;
+  text-align: left;
+  margin-left: 1px;
+  justify-content: start;
+}
+
+.pass {
+  height: 8vh;
+  font-size: 19px;
+  width: 85%;
+  border-radius: 60px;
+  margin: 2%;
+}
+.email {
+  height: 8vh;
+  font-size: 19px;
+  width: 85%;
+  border-radius: 60px;
+  margin: 2%;
+}
+.fp {
+  margin-left: 49%;
+}
+.sign {
+  height: 10vh;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 935px) {
+  .right {
+    flex-direction: column;
+    /* background-color: rgb(248, 175, 187); */
+    justify-content: center;
+    width: auto;
+  }
+  .right1 {
+    justify-content: center;
+    margin: 5% 0% -5% 0%;
+  }
+  .left {
+    display: none;
+  }
+  .right2 {
+    overflow: hidden;
+    width: 200px;
+    /* background-color: rgb(253, 215, 221); */
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 300px;
+    box-shadow: 5px 5px 10px 5px rgb(248, 175, 187);
+  }
+  .twt,
+  .ggl {
+    height: 44%;
+  }
+  .pass,
+  .email {
+    font-size: 15px;
+  }
+  .signbtn {
+    height: 68%;
+    width: 39%;
+    margin-top: 9%;
+    border-radius: 5px;
+    font-size: 15px;
+    color: aliceblue;
+  }
+  .right {
+    padding-bottom: 50%;
+  }
+  .fp {
+    margin-left: 34%;
+  }
+  .btn2 {
+    width: 106%;
+  }
+  .or {
+    width: 95%;
+  }
+}
