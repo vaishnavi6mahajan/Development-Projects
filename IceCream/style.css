@@ -63,7 +63,7 @@ li {
   width: 90px;
   margin-bottom: 10px;
 }
-.text p{
+.text p {
   padding-bottom: 30px;
 }
 .text h1 {
@@ -79,7 +79,7 @@ li {
   border: none;
   border-radius: 3px;
 }
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   /* transform:  scale(1.05); */
   box-shadow: 0 3px 10px rgb(0, 0, 0);
@@ -95,7 +95,7 @@ li {
   align-items: center;
   flex-direction: column;
 }
-.text2{
+.text2 {
   color: aliceblue;
   width: 30%;
   height: 35%;
@@ -110,11 +110,51 @@ li {
   width: 90px;
   margin-bottom: 10px;
   /* color:aqua; */
-  
 }
-.text3{
+.text2 p {
+  text-align: center;
+  font-size: 15px;
+}
+.text2 h1{
+  font-family: rubik;
+}
+.text3 {
   width: 100%;
   height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.cards {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cards p {
+  color: aliceblue;
+  align-items: center;
+  width: 190px;
+  text-align: center;
+  font-size: 15px;
+}
+.cards h3 {
+  color: aliceblue;
+  font-size: 25px;
+  padding: 10px;
+  font-family: rubik;
+  margin-top: 24px;
+}
+.card1 {
+  border-radius: 50%;
+  height: 29%;
+  align-items: center;
+}
+.card {
+  border-radius: 50%;
+  height: 30%;
+  width: 50%;
 }
 .img3 {
   background-image: url(imgs/BG3.png);
