@@ -180,8 +180,9 @@ li {
   align-items: center;
   border: none;
 }
-.text5 h1{
+.text5 h3{
   font-family: rubik;
+  font-size: 35px;
 }
 .text5 hr{
   width: 90px;
