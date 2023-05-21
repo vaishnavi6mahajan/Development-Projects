@@ -292,8 +292,72 @@ li {
   background-image: url(imgs/BG7.png);
 }
 .img8 {
-  background-image: url(imgs/BG8.png);
+  /* background-image: url(imgs/BG8.png); */
+  height: 90vh;
+  width: 100%;
+}
+.img8-info{
+display: flex;
+height: 50%;
+width: 100%;
+}
+.img8-divs{
+  height: 100%;
+  width: 25%;
+  position: relative;
+ overflow: hidden;
+}
+.img8-divs img{
+  height: 100%;
+  width: 100%;
+ object-fit: cover;
+}
+.img8-text{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: -100%;
+  right: 0;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  transition: 0.5s;
+}
+.img8-text h2{
+  font-size: 27px;
+  
+}
+.img8-divs:hover .img8-text{
+  cursor: pointer;
+  top: 0;
+  
 }
 .img9 {
   background-image: url(imgs/BG9.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 35%;
+  margin-left: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-last{
+  height: 80%;
+  width: 40%;
+  margin-left: 35%;
+  margin-top: 15%;
+}
+.text-last img{
+  width: 40%;
+}
+.text-last h3{
+  font-family: rubik;
+  font-size: 35px;
+}
+.text-last hr{
+  width: 90px;
 }
