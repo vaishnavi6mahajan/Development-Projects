@@ -5,6 +5,14 @@
   padding: 0px;
   font-family: "Quicksand";
 }
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+hr{
+  background-color: #C9A74D;
+  /* height: 2px; */
+}
 .navbar {
   width: 100%;
   height: 10vh;
@@ -13,6 +21,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+  /* background-color: #f1e0b3; */
 }
 li {
   list-style: none;
@@ -39,20 +48,20 @@ li {
   width: 20px;
   margin: 0px 10px;
 }
-.img1 {
-  /* height: 100vh; */
-  border: 2px solid black;
-}
+
 .img1 {
   height: 100vh;
   background-image: url(imgs/BG1.png);
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text {
   width: 30%;
   height: 35%;
-  margin: 250px 0px 0px 780px;
+  margin: 70px 0px 0px 700px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -62,6 +71,7 @@ li {
 .text hr {
   width: 90px;
   margin-bottom: 10px;
+  height: 1px;
 }
 .text p {
   padding-bottom: 30px;
@@ -108,6 +118,7 @@ li {
 }
 .text2 hr {
   width: 90px;
+  height: 1px;
   margin-bottom: 10px;
   /* color:aqua; */
 }
@@ -116,7 +127,7 @@ li {
   text-align: center;
   font-size: 15px;
 }
-.text2 h1 {
+.text2 ,.text4 h1 {
   font-family: rubik;
 }
 .text3 {
@@ -156,6 +167,7 @@ li {
   border-radius: 50%;
   height: 30%;
   width: 50%;
+  object-fit: cover;
 }
 .img3 {
   background-image: url(imgs/BG3.png);
@@ -176,9 +188,10 @@ li {
   text-align: center;
 }
 .text4 hr {
-  height: 0px;
+  height: 1px;
   width: 20%;
 }
+
 .text5 {
   margin: 0px 0px;
   height: 60%;
@@ -249,6 +262,7 @@ li {
 }
 .text6 hr {
   width: 90px;
+  height: 1px;
 }
 .text6 b {
   font-size: larger;
@@ -258,7 +272,7 @@ li {
   height: 80vh;
   background-repeat: no-repeat;
   background-size: 45%;
-  /* padding-bottom: 40px; */
+  padding-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,6 +293,7 @@ li {
 }
 .text7 hr {
   width: 90px;
+  height: 1px;
 }
 .text7 b {
   font-size: larger;
@@ -308,6 +323,7 @@ li {
 }
 .text8 hr {
   width: 90px;
+  height: 1px;
 }
 .img7 {
   background-image: url(imgs/BG7.png);
@@ -336,6 +352,7 @@ li {
 }
 .ourmenu hr {
   width: 70px;
+  height: 1px;
 }
 .ourmenu h3 {
   font-family: rubik;
@@ -359,8 +376,9 @@ li {
 }
 .flav img {
   height: 100px;
-  width: 65px;
+  width: 76px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .flav-info {
   display: flex;
@@ -443,4 +461,66 @@ li {
 }
 .text-last hr {
   width: 90px;
+  height: 1px;
+}
+.footer {
+  height:40vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* border: 1px solid white; */
+  color: aliceblue;
+  gap: 2em;
+}
+.footer1{
+  height: 65%;
+  width: 20%;
+  /* border: 1px solid white; */
+}
+.img-logo{
+  width: 50%;
+}
+.footer1 p{
+  font-size: 15px;
+}
+.footer2{
+  height: 65%;
+  width: 8%;
+  /* border: 1px solid white; */
+}
+
+.footer2 li{
+  margin: 6px;
+}
+.footer3{
+  height: 65%;
+  width: 8%;
+  /* border: 1px solid white; */
+}
+.footer3 li{
+  margin: 7px;
+}
+.footer4{
+  height: 65%;
+  width: 10%;
+  /* border: 1px solid white; */
+}
+.footer5{
+  margin-left: 30px;
+  height: 65%;
+  width: 25%;
+  /* border: 1px solid white; */
+}
+.footer5 input{
+  height: 25px ;
+  width: 200px;
+  border-radius: 10px;
+}
+.footer5 button{
+  height: 27px ;
+  width: 100px;
+  border-radius: 6px;
 }
