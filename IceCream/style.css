@@ -5,12 +5,12 @@
   padding: 0px;
   font-family: "Quicksand";
 }
-a{
+.navbar a {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
 }
-hr{
-  background-color: #C9A74D;
+hr {
+  background-color: #c9a74d;
   /* height: 2px; */
 }
 .navbar {
@@ -21,11 +21,12 @@ hr{
   justify-content: center;
   align-items: center;
   position: fixed;
-  /* background-color: #f1e0b3; */
+  backdrop-filter: blur(4px);
+  z-index: 1;
 }
 li {
   list-style: none;
-  /* color: black; */
+  color: black;
 }
 .mainlist {
   width: 60%;
@@ -88,11 +89,13 @@ li {
   height: 50px;
   border: none;
   border-radius: 3px;
+  transition: all 0.4s;
 }
 .btn:hover {
   cursor: pointer;
   /* transform:  scale(1.05); */
   box-shadow: 0 3px 10px rgb(0, 0, 0);
+
   /* border: 1px rgb(200, 119, 146); */
 }
 .img2 {
@@ -127,7 +130,8 @@ li {
   text-align: center;
   font-size: 15px;
 }
-.text2 ,.text4 h1 {
+.text2,
+.text4 h1 {
   font-family: rubik;
 }
 .text3 {
@@ -381,10 +385,27 @@ li {
   object-fit: cover;
 }
 .flav-info {
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
+}
+.vai-btn {
+  overflow: hidden;
+  right: -100%;
+  position: absolute;
+  /* height: auto; */
+  width: 300px;
+  /* margin-bottom: 50%; */
+}
+.animation:hover .flav-info {
+  text-indent: -200%;
+  overflow: hidden;
+  height: 0px;
+}
+.animation:hover .vai-btn {
+  right: 50%;
 }
 .flav-info p {
   margin-left: 40px;
@@ -464,7 +485,7 @@ li {
   height: 1px;
 }
 .footer {
-  height:40vh;
+  height: 40vh;
   width: 100%;
   background-color: black;
   display: flex;
@@ -475,52 +496,56 @@ li {
   color: aliceblue;
   gap: 2em;
 }
-.footer1{
+.footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer1 {
   height: 65%;
   width: 20%;
   /* border: 1px solid white; */
 }
-.img-logo{
+.img-logo {
   width: 50%;
 }
-.footer1 p{
+.footer1 p {
   font-size: 15px;
 }
-.footer2{
+.footer2 {
   height: 65%;
   width: 8%;
   /* border: 1px solid white; */
 }
 
-.footer2 li{
+.footer2 li {
   margin: 6px;
 }
-.footer3{
+.footer3 {
   height: 65%;
   width: 8%;
   /* border: 1px solid white; */
 }
-.footer3 li{
+.footer3 li {
   margin: 7px;
 }
-.footer4{
+.footer4 {
   height: 65%;
   width: 10%;
   /* border: 1px solid white; */
 }
-.footer5{
+.footer5 {
   margin-left: 30px;
   height: 65%;
   width: 25%;
   /* border: 1px solid white; */
 }
-.footer5 input{
-  height: 25px ;
+.footer5 input {
+  height: 25px;
   width: 200px;
   border-radius: 10px;
 }
-.footer5 button{
-  height: 27px ;
+.footer5 button {
+  height: 27px;
   width: 100px;
   border-radius: 6px;
 }
