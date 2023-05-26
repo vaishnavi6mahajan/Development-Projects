@@ -4,11 +4,11 @@
 }
 body {
   display: flex;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .left {
   background-color: rgb(244, 203, 209);
-  width: 50%;
+  width: 25%;
   height: 100vh;
   border: 1px;
   font-family: cursive;
@@ -23,10 +23,10 @@ body {
 }
 .right2 {
   height: 60%;
-  width: 500px;
+  width: 40%;
   border: none;
   border-radius: 10px;
-  margin: 100px 300px 90px 300px;
+  margin: 5% 10% 10% 24%;
   padding: 30px;
 }
 .upper {
@@ -147,7 +147,7 @@ hr {
   margin: 2%;
 }
 .fp {
-  margin-left: 49%;
+  margin-left: 45%;
 }
 .sign {
   height: 10vh;
