@@ -391,19 +391,19 @@ li {
   justify-content: center;
   /* align-items: center; */
 }
-.vai-btn {
+/* .vai-btn {
   overflow: hidden;
   right: -100%;
   position: absolute;
   /* height: auto; */
-  width: 300px;
-  /* margin-bottom: 50%; */
-}
-.animation:hover .flav-info {
+  /* width: 300px; */
+  /* margin-bottom: 50%;
+}  */
+/* .animation:hover .flav-info {
   text-indent: -200%;
   overflow: hidden;
   height: 0px;
-}
+} */
 .animation:hover .vai-btn {
   right: 50%;
 }
