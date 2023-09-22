@@ -7,6 +7,10 @@
     <link rel="shortcut icon" href="imgs/Ice cream.svg" type="image/x-icon" />
     <title>Glacies Crepito</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://anijs.github.io/lib/anicollection/anicollection.css"
+    />
   </head>
   <body>
     <header>
@@ -37,7 +41,13 @@
           Take it all in a single bite,import the full demo content with a
           single mouse click using the one click import feature
         </p>
-        <button class="btn">TAKE A BITE</button>
+        <button
+          id="main"
+          data-anijs="if: click, do: zoomOutUp animated"
+          class="btn"
+        >
+          TAKE A BITE
+        </button>
       </div>
     </div>
     <div class="img2" id="Pages">
@@ -404,5 +414,9 @@
         <button>Visit Us</button>
       </div>
     </footer>
+
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+    <script src="anijs-min.js"></script>
   </body>
 </html>
